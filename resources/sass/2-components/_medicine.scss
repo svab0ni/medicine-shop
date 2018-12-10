@@ -1,0 +1,80 @@
+.medicine {
+  margin-bottom: 10px;
+}
+
+.medicine-img {
+  display: none;
+}
+
+.medicine-info {
+  display: none;
+}
+
+.medicine-name {
+  display: none;
+}
+
+.medicine-price {
+  display: none;
+}
+
+.medicine-date {
+  display: none;
+}
+
+.medicine-header-info {
+  display: none;
+}
+
+.medicine a {
+  color: black;
+  text-decoration: none;
+}
+
+//Index medicine card
+.medicine.hasIndexMedicineHeader .medicine-header-info {
+  display: block;
+  position: relative;
+}
+
+.medicine.hasIndexMedicineImg .medicine-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.medicine.hasIndexMedicineCategory .medicine-category-name {
+  display: block;
+  position: absolute;
+  left: 6px;
+  right: inherit;
+  bottom: 6px;
+  padding: 4px;
+  background: #000;
+  font-size: 9px;
+  color: white;
+}
+
+.medicine.hasIndexMedicineInfo .medicine-info {
+  display: block;
+  padding: 18px;
+  border-top: 1px solid #ffffff;
+  background: white;
+}
+
+.medicine.hasIndexMedicineName .medicine-name {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  height: 50px;
+}
+
+.medicine.hasIndexMedicinePrice .medicine-price {
+  display: block;
+}
+
+.medicine.hasIndexMedicineDate .medicine-date {
+  display: block;
+}
+

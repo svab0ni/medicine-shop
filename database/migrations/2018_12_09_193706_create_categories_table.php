@@ -17,9 +17,11 @@ class CreateCategoriesTable extends Migration
             $table->increments('id');
             $table->timestamps();
 
-            $table->string('name');
-            $table->string('slug');
-
+            $table->string('name')->nullable()->default(null);
+            $table->string('slug')->nullable()->default(null);
+            $table->string('color')->nullable()->default(null);
+            $table->string('is_published')->nullable()->default(null);
+            $table->unsignedInteger('order')->nullable()->default(null);
         });
     }
 

@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'IndexController@index');
+
+Route::get('/search', 'SearchController@index');
+
+Route::get('/{category_slug}', 'CategoryController@index');
+

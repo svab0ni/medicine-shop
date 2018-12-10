@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+  background: green;
+}
+.test {
+  font-size: 18px;
+}
+@import "./1-init/index";
+@import "./2-components/index";
+
+body {
+  background: $primary-color;
+  font-family: 'Alfa Slab One', cursive;
+}
