@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    public function index(string $category_slug)
+    public function index(string $categorySlug)
     {
-        $category = Category::where('slug', $category_slug)->first();
+        $category = Category::where('slug', $categorySlug)->first();
         $categories = Category::where('is_published', 1)->get();
 
         $medicines = Medicine::with('category', 'company')

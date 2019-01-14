@@ -34,4 +34,9 @@ class Medicine extends Model
     {
         return $this->belongsTo(User::class, 'creator_id');
     }
+
+    public function deliveries()
+    {
+        return $this->belongsToMany(Delivery::class);
+    }
 }

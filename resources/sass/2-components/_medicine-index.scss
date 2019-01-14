@@ -1,0 +1,93 @@
+.medicine-index-header {
+  display: none;
+}
+
+.medicine-index-description {
+  display: none;
+}
+
+.medicine-index-name {
+  display: none;
+}
+
+.medicine-index-short-text {
+  display: none;
+}
+
+.medicine-index-details {
+  display: none;
+}
+
+.medicine-index-date {
+  display: none;
+}
+
+.medicine-index-category {
+  display: none;
+}
+
+.medicine-index-img {
+  display: none;
+}
+
+.medicine-index-info {
+  display: none;
+}
+
+.medicine-index-long-text {
+  display: none;
+}
+
+//Standard Medicine Index Template
+
+.medicine-index.hasMedicineIndexHeader .medicine-index-header{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.medicine-index.hasMedicineIndexDescription .medicine-index-description{
+  display: block;
+}
+
+.medicine-index.hasMedicineIndexName .medicine-index-name{
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 5px 0 20px;
+}
+
+.medicine-index.hasMedicineIndexShortText .medicine-index-short-text{
+  display: block;
+  font-size: 21px;
+  line-height: 26px;
+  margin: 20px 0 15px;
+}
+//
+.medicine-index.hasMedicineIndexDetails .medicine-index-details{
+  display: block;
+}
+
+.medicine-index.hasMedicineIndexDate .medicine-index-date{
+  display: block;
+}
+
+.medicine-index.hasMedicineIndexCategory .medicine-index-category{
+  display: block;
+}
+
+.medicine-index.hasMedicineIndexImg .medicine-index-img{
+  display: block;
+  height: 550px;
+  width: 100%;
+}
+
+.medicine-index.hasMedicineIndexInfo .medicine-index-info{
+  display: block;
+}
+
+.medicine-index.hasMedicineIndexLongText .medicine-index-long-text{
+  display: block;
+  font-size: 17px;
+
+}
